@@ -1,0 +1,23 @@
+package i2;
+
+public class anoymousarray {
+    int tarr;
+    int arr[];
+    anoymousarray()
+    {
+      int arr[]=new int[5];
+    }
+    public void intialzearray(int tarr[])
+    {
+       arr=tarr;
+       
+    }
+    public static void main (String []args)
+    {
+        anoymousarray ob=new anoymousarray();
+        ob.intialzearray(new int[]{1,2,3,5,6});
+
+
+    }
+    
+}
